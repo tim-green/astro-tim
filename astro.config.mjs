@@ -16,6 +16,9 @@ export default defineConfig({
     },
   },
   output: "static",
+  site: 'https://astro.timgreen.ws',
+  trailingSlash: 'always',
+  prefetch: true,
   build: {
     inlineStylesheets: "auto",
   }
