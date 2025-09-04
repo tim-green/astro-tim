@@ -2,6 +2,7 @@
 import { Image } from "astro:assets";
 
 // project images import
+import astrotim from "../../public/astro-tim.jpg";
 import polygon from "../../public/polygon.jpg";
 import slash from "../../public/slash.jpg";
 import craft from "../../public/craft.jpg";
@@ -19,6 +20,13 @@ interface Project {
 
 const projects: Project[] = [
     {
+    title: "Astro Tim",
+    image: astrotim as ImageMetadata,
+    description:"Astro Tim is a site that is a portal of all the other Astro projects .",
+    git: "https://github.com/tim-green/astro-tim",
+    link: "https://astro.timgreen.ws/"
+  },
+  {
     title: "Polygon",
     image: polygon as ImageMetadata,
     description:"Polygon is an ultra-minimal site built using Astro.",
@@ -61,7 +69,7 @@ const projects: Project[] = [
   class="py-12 border-t border-[#ffffff10] text-[var(--white)]"
 >
   <div class="max-w-5xl mx-auto">
-    <h2 class="mv text-4xl md:text-5xl font-medium mb-8">Projects</h2>
+    <h2 class="mv text-4xl md:text-5xl font-medium mb-8">Projects <span class="text-gray-400 text-base hidden">- Latest to Oldest.</span></h2>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
       {
