@@ -11,7 +11,7 @@ export default {
         },
       },
       fontSize: {
-        'fluid-heading': 'clamp(5rem, 5vw, 12rem)', // Min, Preferred, Max
+        'fluid-heading': 'clamp(2vw, 10vw, 12rem)', // Min, Preferred, Max
       },
       animation: {
         scale: 'scaleAnim 300ms ease-in-out',
