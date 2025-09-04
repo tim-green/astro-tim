@@ -13,6 +13,27 @@ import '@fontsource/tiktok-sans/700.css';
 import '@fontsource/tiktok-sans/800.css';
 import '@fontsource/tiktok-sans/900.css';
 ---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Welcome to Astro Tim. This is where you find all the astro projects that I've built" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg" href="/logo.svg" />
+    <meta property="og:title" content="Tim Green" />
+    <meta property="og:description" content="Astro Tim Showcase" />
+    <meta property="og:image" content="https://astro.timgreen.ws/og.image.png" />
+    <meta property="og:url" content="https://astro.timgreen.ws" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Astro Tim" />
+    <title>{title}</title>
+  </head>
+  <body class="bg-[--background] sm:px-28 lg:px-20 px-9">
+    <slot />
+  </body>
+</html>
+
 <style is:global>
   @font-face {
     font-family: 'Marvin Visions';
