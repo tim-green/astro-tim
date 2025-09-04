@@ -13,3 +13,50 @@ import '@fontsource/tiktok-sans/700.css';
 import '@fontsource/tiktok-sans/800.css';
 import '@fontsource/tiktok-sans/900.css';
 ---
+<style is:global>
+
+  :root {
+    --background: #050505;
+    --sec: rgb(35 191 134);
+    --white: #f2f2f2;
+    --white-icon: #f0f0f098;
+    --green-icon: rgb(35 191 134);
+    --white-icon-tr: #d4d4d410;
+  }
+
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  *::selection {
+    background-color: var(--sec);
+    color: var(--white);
+  }
+
+  /* Scrollbar  */
+  ::-webkit-scrollbar {
+    width: 15px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--container);
+    border-radius: 30px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--background);
+    border-radius: 10px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--pink);
+  }
+
+  /* Fix for scrollbars in Firefox*/
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--line) var(--container);
+  }
+</style>
