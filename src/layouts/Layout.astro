@@ -14,6 +14,12 @@ import '@fontsource/tiktok-sans/800.css';
 import '@fontsource/tiktok-sans/900.css';
 ---
 <style is:global>
+  @font-face {
+    font-family: 'Marvin Visions';
+    src: url(/fonts/MarvinVisions-Variable.woff2) format('woff2'),
+      url(/fonts/MarvinVisions-Variable.woff) format('woff'),
+      url(/fonts/MarvinVisions-Variable.ttf) format('truetype');
+  }
 
   :root {
     --background: #050505;
@@ -33,6 +39,15 @@ import '@fontsource/tiktok-sans/900.css';
   *::selection {
     background-color: var(--sec);
     color: var(--white);
+  }
+
+  body{
+    font-family: "Tiktok Sans", -apple-system,system-ui, sans-serif;
+  }
+
+  /* Marvin Vision Specific */
+  .mv{
+    font-family: "Marvin Visions";
   }
 
   /* Scrollbar  */
