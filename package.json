@@ -29,7 +29,8 @@
   },
   "devDependencies": {
     "@types/node": "^24.3.0",
-    "astro-compress": "^2.3.8",
+    "astro-compress": "^2.3.9",
+    "prettier": "^3.8.0",
     "prettier-plugin-astro": "^0.14.1"
   }
 }
