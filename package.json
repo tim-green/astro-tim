@@ -20,10 +20,10 @@
     "@types/react-dom": "^19.2.3",
     "astro": "^5.16.11",
     "ogl": "^1.0.11",
-    "typescript": "^5.9.2"
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "sharp": "^0.34.5",
+    "typescript": "^5.9.3"
   },
   "devDependencies": {
     "@types/node": "^25.0.9",
