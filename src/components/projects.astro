@@ -3,6 +3,7 @@ import { Image } from "astro:assets";
 
 // project images import
 import astrotim from "../../public/astro-tim.jpg";
+import event from "../../public/event.jpg";
 import polygon from "../../public/polygon.jpg";
 import slash from "../../public/slash.jpg";
 import craft from "../../public/craft.jpg";
@@ -19,12 +20,12 @@ interface Project {
 }
 
 const projects: Project[] = [
-    {
-    title: "Astro Tim",
-    image: astrotim as ImageMetadata,
-    description:"Astro Tim is a site that is a portal of all the other Astro projects .",
-    git: "https://github.com/tim-green/astro-tim",
-    link: "https://astro.timgreen.ws/"
+  {
+    title: "E-Vent",
+    image: event as ImageMetadata,
+    description:"E-vent is a modern and responsive event landing page built with Astro.",
+    git: "https://github.com/tim-green/astro-event",
+    link: "https://astro.timgreen.ws/event/"
   },
   {
     title: "Polygon",
@@ -60,7 +61,14 @@ const projects: Project[] = [
     description:"Astro build landing page, designed for SaaS.",
     git: "https://github.com/tim-green/astro-letterbox",
     link: "https://astro.timgreen.ws/letterbox/"
-  }
+  },
+   {
+    title: "Astro Tim",
+    image: astrotim as ImageMetadata,
+    description:"Astro Tim is a site that is a portal of all the other Astro projects .",
+    git: "https://github.com/tim-green/astro-tim",
+    link: "https://astro.timgreen.ws/"
+  },
 ];
 ---
 
